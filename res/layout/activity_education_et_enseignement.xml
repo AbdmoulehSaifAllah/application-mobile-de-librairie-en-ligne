@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back3"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:id="@+id/checkbox_livre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:text="Le grand livre de la pédagogie  -  $16.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkbox_livre2"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="La pédagogie Montessori expliquée aux parents  -  $18.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_livre1" />
+
+    <CheckBox
+        android:id="@+id/checkbox_livre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:text="La discipline positive  -  $28.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_livre2" />
+
+    <CheckBox
+        android:id="@+id/checkbox_livre4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:text="La nouvelle éducation  -  $37.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_livre3" />
+
+    <CheckBox
+        android:id="@+id/checkbox_livre5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:text="Apprendre autrement avec la pédagogie positive  -  $22.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_livre4" />
+
+    <Button
+        android:id="@+id/btn_calculer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:fontFamily="@font/archivo_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_livre5" />
+
+    <TextView
+        android:id="@+id/tv_resultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:fontFamily="@font/archivo_black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calculer" />
+
+    <Button
+        android:id="@+id/précédent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/précédent"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:fontFamily="@font/archivo_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
+    <Button
+        android:id="@+id/suivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Suivant"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:fontFamily="@font/archivo_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
+</androidx.constraintlayout.widget.ConstraintLayout>

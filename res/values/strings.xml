@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MYBIB</string>
+    <string name="bienvenue">Bienvenue à votre librairie</string>
+    <string name="choix">Veuillez choisir la catégorie souhaitée</string>
+    <string name="catégorie1">Santé, fitness et régime</string>
+    <string name="catégorie2">Éducation et enseignement</string>
+    <string name="catégorie3">Affaires et argent</string>
+    <string name="catégorie4">Livres pour enfants</string>
+    <string name="catégorie5">Arts et photographie</string>
+    <string name="précédent">Précédent</string>
+    <string name="Suivant">Suivant</string>
+    <string name="app_name1">SantéFitnessEtRégime</string>
+    <string name="suivant">Suivant</string>
+    <string name="choisissez_votre_m_thode_de_paiement">Choisissez votre méthode de paiement:</string>
+    <string name="carte_de_cr_dit">Carte de crédit</string>
+    <string name="paypal">PayPal</string>
+    <string name="apple_pay">Apple Pay</string>
+    <string name="virements_bancaires">Virements bancaires</string>
+    <string name="title_notifications">Notification</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+</resources>

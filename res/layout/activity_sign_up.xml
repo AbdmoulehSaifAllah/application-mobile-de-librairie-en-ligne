@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    android:padding="16dp"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:fontFamily="@font/archivo_black"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:hint="Confirm Password" />
+
+    <Button
+        android:id="@+id/btnSuivant1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:textColor="@color/white"
+
+        android:backgroundTint="@color/black"
+        android:text="suivant" />
+
+    <Button
+        android:id="@+id/btnPrecedent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="précedent" />
+
+
+</LinearLayout>

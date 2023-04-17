@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".MethodeDePaiment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choisissez_votre_m_thode_de_paiement"
+        android:textSize="18sp"
+        android:fontFamily="@font/archivo_black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPaiment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189">
+
+        <RadioButton
+            android:id="@+id/radioButtonCreditCard"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:backgroundTint="@color/black"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/carte_de_cr_dit" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPayPal"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:backgroundTint="@color/black"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/paypal" />
+
+        <RadioButton
+            android:id="@+id/radioButtonApplePay"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:backgroundTint="@color/black"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/apple_pay" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBitcoin"
+            android:fontFamily="@font/archivo_black"
+            android:backgroundTint="@color/black"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/virements_bancaires" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/précédent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/précédent"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:fontFamily="@font/archivo_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
+
+    <Button
+        android:id="@+id/suivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Suivant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:fontFamily="@font/archivo_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
+</androidx.constraintlayout.widget.ConstraintLayout>
