@@ -1,2 +1,2 @@
 # application-mobile-de-librairie-en-ligne
-Une application mobile de librairie en ligne qui permet aux utilisateurs de gérer leurs comptes (se connecter et s'inscrire), de choisir les livres souhaités par catégorie, de sélectionner la méthode de paiement souhaitée et de demander la localisation des clients pour assurer la livraison des livres achetés.
+Une application mobile de librairie en ligne en Java et XML, avec une conception en UML et une intégration d'un ERP. Elle permet aux utilisateurs de gérer leurs comptes (se connecter et s'inscrire), de choisir les livres souhaités par catégorie, de sélectionner la méthode de paiement souhaitée et de demander la localisation des clients dans le but d'assurer la livraison des livres achetés.
